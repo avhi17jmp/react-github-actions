@@ -25,7 +25,7 @@ jobs:
       - name: Build React App
         run: npm run build
 
-      - name: npm test
+      - name: testing react app
         run: npm test
       
       - name: Github banner action 
