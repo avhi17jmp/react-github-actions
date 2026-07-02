@@ -27,3 +27,11 @@ jobs:
 
       - name: npm test
         run: npm test
+      
+      - name: Github banner action 
+        uses: action/github-script@v7
+        with: 
+          script: |
+            console.log("========================")
+            console.log("   banner is working    ")
+            console.log("========================")
